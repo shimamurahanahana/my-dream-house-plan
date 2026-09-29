@@ -34,7 +34,7 @@ nav a:last-child span { margin-left: 8px; color: var(--green); }
 
 .hero { position: relative; min-height: min(690px, 76vw); height: min(690px, calc(100svh - 76px)); overflow: hidden; color: white; background: #4a5148; }
 .hero-image, .hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
-.hero-image { object-fit: cover; object-position: center 56%; animation: image-arrive 1.2s ease both; }
+.hero-image { object-fit: cover; object-position: 70% 58%; animation: image-arrive 1.2s ease both; }
 .hero-shade { background: linear-gradient(90deg, rgb(23 31 26 / 76%) 0%, rgb(23 31 26 / 46%) 45%, rgb(23 31 26 / 6%) 100%), linear-gradient(0deg, rgb(23 31 26 / 25%), transparent 35%); }
 .hero-copy { position: absolute; top: 50%; left: 12%; width: min(600px, 68%); transform: translateY(-46%); animation: copy-arrive 750ms 120ms ease both; }
 .eyebrow, .section-label { font: 600 9px var(--display); letter-spacing: .15em; }
@@ -285,7 +285,7 @@ footer p { color: var(--muted); font-size: 10px; }
 	.brand > span:first-child { font-size: 23px; }
 	nav { gap: 13px; }
 	nav a { font-size: 9px; }
-	nav a:first-child { display: none; }
+	nav a:first-child, nav a:last-child { display: none; }
 	.hero { min-height: 590px; height: 84svh; }
 	.hero-shade { background: linear-gradient(90deg, rgb(23 31 26 / 76%), rgb(23 31 26 / 24%)), linear-gradient(0deg, rgb(23 31 26 / 28%), transparent 40%); }
 	.hero-copy { top: 46%; width: 84%; }
